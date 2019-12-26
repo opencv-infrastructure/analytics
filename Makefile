@@ -17,7 +17,7 @@ help:
 generate:
 	@mkdir -p $(BUILDDIR)
 	@cp -r ./docs/ $(SOURCEDIR)
-	@python ./build_pr_statistic.py --pages_path $(SOURCEDIR) --from_cache actual.json
+	@python ./build_pr_statistic.py --pages_path $(SOURCEDIR)
 	@make html
 
 

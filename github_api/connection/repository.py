@@ -51,7 +51,8 @@ class RepositoryApi:
                 f'closed:{from_date}..{to_date}'
         pull_requests = list(
             map(PullRequest.from_json,
-                self._connection.search(end_point, params={'q': query}))
+                self._connection.search(end_point, params={'q': query,
+                                                           'per_page': 100}))
         )
         self._logger.debug(f'Found {len(pull_requests)} closed pull requests')
         return pull_requests
@@ -67,7 +68,8 @@ class RepositoryApi:
                 f'created:{from_date}..{to_date}'
         pull_requests = list(
             map(PullRequest.from_json,
-                self._connection.search(end_point, params={'q': query}))
+                self._connection.search(end_point, params={'q': query,
+                                                           'per_page': 100}))
         )
         self._logger.debug(f'Found {len(pull_requests)} created pull requests')
         return pull_requests

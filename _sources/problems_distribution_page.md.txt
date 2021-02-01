@@ -1,0 +1,283 @@
+# Problematic pull requests
+## Stable reproducers
+ - [PR#15860](https://github.com/opencv/opencv/pull/15860): core(test): Test control characters in yml
+
+   __Description__:<br/>
+```
+Reproducer for #6897
+
+ Please use this line to close one or multiple issues when this pullrequest gets merged
+You can add another line right under the first one:
+resolves #1234
+resolves #1235
+
+
+This pullrequest changes
+
+ Please describe what your pullrequest is changing 
+
+```
+ - [PR#15311](https://github.com/opencv/opencv/pull/15311): `solvePnP`and 'projectPoints' for calib3d and face module
+
+   __Description__:<br/>
+```
+reproducer for #15299
+
+
+opencv_contrib=master
+force_builders_only=Custom
+buildworker:Custom=linux-1,linux-2,linux-4
+docker_image:Custom=javascript
+
+```
+## WIP
+ - [PR#19420](https://github.com/opencv/opencv/pull/19420): WIP: Diagnostic run for ONNX DNN loader (Prototype)
+
+ - [PR#19360](https://github.com/opencv/opencv/pull/19360): WIP: Support loading of LSTM networks from ONNX (non-PyTorch)
+
+ - [PR#19351](https://github.com/opencv/opencv/pull/19351): [WIP] [G-API] Python backend
+
+ - [PR#19222](https://github.com/opencv/opencv/pull/19222): [WIP] cuda4dnn: fix version check diagnostic
+
+ - [PR#18952](https://github.com/opencv/opencv/pull/18952): Updated UI documentation to address WUI
+
+ - [PR#18925](https://github.com/opencv/opencv/pull/18925): Swift Package Manager [WIP]
+
+ - [PR#18900](https://github.com/opencv/opencv/pull/18900): [WIP] G-API: Wrap GOpaque
+
+ - [PR#18780](https://github.com/opencv/opencv/pull/18780): [WIP] Support MediaFrame for render
+
+ - [PR#18627](https://github.com/opencv/opencv/pull/18627): [WIP] reformat trackers
+
+ - [PR#18594](https://github.com/opencv/opencv/pull/18594): core: support Mat 1D
+
+ - [PR#18377](https://github.com/opencv/opencv/pull/18377): Zerocopy gstreamer videocapture
+
+ - [PR#18237](https://github.com/opencv/opencv/pull/18237): WIP: [GSoC] Added TF and PyTorch detection model conversion cases
+
+ - [PR#17889](https://github.com/opencv/opencv/pull/17889): WIP：QR code (decoding process)
+
+ - [PR#17801](https://github.com/opencv/opencv/pull/17801): WIP: [GSoC] Added TF and PyTorch segmentation conversion cases
+
+ - [PR#17753](https://github.com/opencv/opencv/pull/17753): WIP: imreadmulti extention for issue #6574
+
+ - [PR#17393](https://github.com/opencv/opencv/pull/17393): dnn(test): add IE models for face-detection
+
+ - [PR#12290](https://github.com/opencv/opencv/pull/12290): 16-bit Grayscale and 48 bit RGB with FFV1 lossless as part of #12284 with tests
+
+ - [PR#12186](https://github.com/opencv/opencv/pull/12186): samples: refactor DNN model downloading
+
+ - [PR#10318](https://github.com/opencv/opencv/pull/10318): For various PR tests
+
+## Problem: incomplete
+ - [PR#19398](https://github.com/opencv/opencv/pull/19398): Added TanH activation function to darknet
+
+   __Description__:<br/>
+```
+Pull Request Readiness Checklist
+
+
+- [x] I agree to contribute to the project under Apache 2 License.
+- [x] To the best of my knowledge, the proposed patch is not based on a code under GPL or other license that is incompatible with OpenCV
+- [x] The PR is proposed to proper branch
+- [x] There is reference to original bug report and related work
+- [ ] There is accuracy test, performance test and test data in opencv_extra repository, if applicable
+      Patch to opencv_extra has the same branch name.
+- [ ] The feature is well documented and sample code can be built with the project CMake
+
+```
+ - [PR#19343](https://github.com/opencv/opencv/pull/19343): Fixed detection of OpenBLAS and LAPACK on Ubuntu 18.04 with arch x86-64
+
+   __Description__:<br/>
+```
+Fixes the cmake detection of OpenBLAS and LAPACK libraries on Ubuntu with arch x86-64
+
+A similar fix can be applied for other architectures too.
+
+Source: #9953, only partially resolves it.
+
+Tested this on a Docker container, Ubuntu 18.04 with GCC 7.5.0, OpenCV builds successfully, and the relevant cmake output for OpenBLAS detection is as follows:
+
+-- Found OpenBLAS libraries: /usr/lib/x86_64-linux-gnu/libopenblas.so
+-- Found OpenBLAS include: /usr/include/x86_64-linux-gnu
+-- LAPACK(OpenBLAS): LAPACK_LIBRARIES: /usr/lib/x86_64-linux-gnu/libopenblas.so
+-- LAPACK(OpenBLAS): Support is enabled.
+
+
+This patch has not been tested on other architectures/OS, but it should not affect any other architecture/OS
+
+Pull Request Readiness Checklist
+
+See details at https://github.com/opencv/opencv/wiki/How_to_contribute#making-a-good-pull-request
+
+- [x] I agree to contribute to the project under Apache 2 License.
+- [x] To the best of my knowledge, the proposed patch is not based on a code under GPL or other license that is incompatible with OpenCV
+- [ ] The PR is proposed to proper branch
+- [ ] There is reference to original bug report and related work
+- [ ] There is accuracy test, performance test and test data in opencv_extra repository, if applicable
+      Patch to opencv_extra has the same branch name.
+- [ ] The feature is well documented and sample code can be built with the project CMake
+```
+## Problem: pr: Discussion Required
+ - [PR#19305](https://github.com/opencv/opencv/pull/19305): Test writing documentation
+
+   __Description__:<br/>
+```
+Pull Request Readiness Checklist
+
+See details at https://github.com/opencv/opencv/wiki/How_to_contribute#making-a-good-pull-request
+
+- [ ] I agree to contribute to the project under Apache 2 License.
+- [ ] To the best of my knowledge, the proposed patch is not based on a code under GPL or other license that is incompatible with OpenCV
+- [ ] The PR is proposed to proper branch
+- [ ] There is reference to original bug report and related work
+- [ ] There is accuracy test, performance test and test data in opencv_extra repository, if applicable
+      Patch to opencv_extra has the same branch name.
+- [ ] The feature is well documented and sample code can be built with the project CMake
+
+```
+ - [PR#18277](https://github.com/opencv/opencv/pull/18277): parallelize FAST
+
+   __Description__:<br/>
+```
+Pull Request Readiness Checklist
+
+See details at https://github.com/opencv/opencv/wiki/How_to_contribute#making-a-good-pull-request
+
+- [x] I agree to contribute to the project under Apache 2 License.
+- [x] To the best of my knowledge, the proposed patch is not based on a code under GPL or other license that is incompatible with OpenCV
+- [x] The PR is proposed to proper branch
+- [x] There is reference to original bug report and related work
+- [x] There is accuracy test, performance test and test data in opencv_extra repository, if applicable
+      Patch to opencv_extra has the same branch name.
+- [x] The feature is well documented and sample code can be built with the project CMake
+
+Purpose
+This PR tries to implement parallelism flow of FAST.
+Design details.
+
+- this PR implements an invoker which inherits from ParallelLoopBody.
+
+- in the constructor of invoker, it divides input image into slices.
+
+- in operator() if invoker, execute FAST algorithm in parallel.
+
+- to completely comply with original flow, slices need to overlap with their neighbors. in order to:
+
+1. provide corner check reference. 
+2. provide NMS reference.
+
+- each slice is represented as ROI.
+
+- currently TYPE_9_16 has been verified and should provide the same result as original flow.
+
+- we need to add slice offset to keypoints' y axis. 
+
+Performance measure
+environment: 12 threads (6+6) of Intel core i7 9th Gen.
+
+[cpuinfo.txt](https://github.com/opencv/opencv/files/5179545/cpuinfo.txt)
+
+**case 1:** no NMS, only  to detect keypoints and threshold = 10.
+![nonms](https://user-images.githubusercontent.com/14846473/92324268-b7465800-f072-11ea-8e80-57fa35590265.png)
+
+<img width="977" alt="nonms" src="https://user-images.githubusercontent.com/14846473/92324511-068d8800-f075-11ea-9cba-dc070c098765.png">
+
+Speedup up to ~x5 is observed; notice that if slices are divided uniformly it can be even faster (as explained in criterion to select # of slices)
+
+**case 2:** with NMS, only  to detect keypoints and threshold = 10.
+![nms](https://user-images.githubusercontent.com/14846473/92324273-c7f6ce00-f072-11ea-9406-00b74f607322.png)
+<img width="934" alt="nms" src="https://user-images.githubusercontent.com/14846473/92324517-11481d00-f075-11ea-8587-16f02dc6ea22.png">
+Speedup up to ~x6 is observed; notice that if slices are divided uniformly it can be even faster (as explained in criterion to select # of slices)
+
+**criterion to select # of slices:** .
+For some images, the key points distribute non-evenly.
+As description in (TODO), if we ensure the # of slices >= # of available threads, we can do better. 
+Experiment result is given below(TODO)
+
+
+TODO:
+```
+ - [PR#11885](https://github.com/opencv/opencv/pull/11885): RFC: merge fisheye camera into default camera calibration API
+
+   __Description__:<br/>
+```
+for #11015
+
+- allow using default calib flags for fisheye functions
+- forwarded the cameraModel flag where possible
+- solvePnP will still fail with fisheye model in undistort points
+  - as undistortPoints is in imgproc, while the fisheye version is in calib3d there is no forwarding
+- the ccalib versions could be similarly integrated 
+```
+## Problem: pr: needs test
+ - [PR#18306](https://github.com/opencv/opencv/pull/18306): Added CALIB_FIX_FOCAL_LENGTH to fisheye calibration #13450
+
+   __Description__:<br/>
+```
+Sometimes you want to calibrate just the principal point of a camera, or just the distortion coefficients. In this case, you can pass the CALIB_FIX_FOCAL_LENGTH flag to keep Fx and Fy
+
+Pull Request Readiness Checklist
+
+See details at https://github.com/opencv/opencv/wiki/How_to_contribute#making-a-good-pull-request
+
+- [x] I agree to contribute to the project under Apache 2 License.
+- [x] To the best of my knowledge, the proposed patch is not based on a code under GPL or other license that is incompatible with OpenCV
+- [x] The PR is proposed to proper branch
+- [x] There is reference to original bug report and related work
+- [x] There is accuracy test, performance test and test data in opencv_extra repository, if applicable
+      Patch to opencv_extra has the same branch name.
+- [x] The feature is well documented and sample code can be built with the project CMake
+
+```
+ - [PR#17753](https://github.com/opencv/opencv/pull/17753): WIP: imreadmulti extention for issue #6574
+
+   __Description__:<br/>
+```
+proposed solution to https://github.com/opencv/opencv/issues/6574
+
+**TEST**
+
+the idea in summary:
+
+creating a new class ImageLoader including cv::imread codes seperated in two section 
+
+> a) reading header of files ( ImageLoader.open() ) gets image information such as width, heigth, type, number of pages ( curently TIFF extendable to other formats )
+
+
+> b) reading data ( ImageLoader.load() )
+
+<cut/>
+
+Pull Request Readiness Checklist
+
+See details at https://github.com/opencv/opencv/wiki/How_to_contribute#making-a-good-pull-request
+
+- [X] I agree to contribute to the project under OpenCV (BSD) License.
+- [X] To the best of my knowledge, the proposed patch is not based on a code under GPL or other license that is incompatible with OpenCV
+- [X] The PR is proposed to proper branch
+- [X] There is reference to original bug report and related work
+- [ ] There is accuracy test, performance test and test data in opencv_extra repository, if applicable
+      Patch to opencv_extra has the same branch name.
+- [ ] The feature is well documented and sample code can be built with the project CMake
+
+
+
+force_builders_only=docs,linux,Win64
+
+```
+ - [PR#14296](https://github.com/opencv/opencv/pull/14296): photo: Add support for CV_16U to cv::cuda::fastNlMeansDenoising and c…
+
+   __Description__:<br/>
+```
+photo: Add support for CV_16U to cv::cuda::fastNlMeansDenoising and cv::cuda::nonLocalMeans
+
+<cut/>
+
+
+opencv_extra=cuda_nlm_16support
+force_builders=Custom
+buildworker:Custom=linux-1,linux-2,linux-4
+docker_image:Custom=ubuntu-cuda:16.04
+
+```

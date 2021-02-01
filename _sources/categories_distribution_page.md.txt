@@ -1,0 +1,36 @@
+# Categories distribution
+## Overview
+Total percentage may exceed 100%, because several categories may be assigned to 1 pull request.
+ ![Categories distribution plot](_static/categories_distribution.png)
+## Pull requests with auto assigned categories
+Categories are assigned based on path of the changed files.
+
+  - [PR#19420](https://github.com/opencv/opencv/pull/19420): WIP: Diagnostic run for ONNX DNN loader (Prototype)
+<br/>   __Assigned categories__: ('dnn',)
+---
+ - [PR#19415](https://github.com/opencv/opencv/pull/19415): find mkl and tbb from oneApi automatically.
+<br/>   __Assigned categories__: ('build/install', 'core')
+---
+ - [PR#19398](https://github.com/opencv/opencv/pull/19398): Added TanH activation function to darknet
+<br/>   __Assigned categories__: ('dnn',)
+---
+ - [PR#19392](https://github.com/opencv/opencv/pull/19392): Temporary PR: finalize PR 17836 goodFeaturesToTrack w/ corner values
+<br/>   __Assigned categories__: ('imgproc', 'core', 'features2d')
+---
+ - [PR#18931](https://github.com/opencv/opencv/pull/18931): Add Python Bindings for getCacheDirectory function
+<br/>   __Assigned categories__: ('core', 'python bindings')
+---
+ - [PR#18874](https://github.com/opencv/opencv/pull/18874): Revert IPP enabling and workarounds
+<br/>   __Assigned categories__: ('t-api', 'imgproc', 'core', 'infrastructure')
+---
+ - [PR#18694](https://github.com/opencv/opencv/pull/18694): videoio/gstreamer: Add support for GRAY16_LE.
+<br/>   __Assigned categories__: ('videoio',)
+---
+ - [PR#18466](https://github.com/opencv/opencv/pull/18466): GAPI: SIMD optimization for AddWeighted kernel.
+<br/>   __Assigned categories__: ('g-api / gapi',)
+---
+ - [PR#17167](https://github.com/opencv/opencv/pull/17167): QR-Code: Add evaluation sample
+<br/>   __Assigned categories__: ('samples',)
+---
+ - [PR#10318](https://github.com/opencv/opencv/pull/10318): For various PR tests
+<br/>   __Assigned categories__: ('core', 'infrastructure')

@@ -1,0 +1,387 @@
+# Age distribution
+## Overview
+ - Average age of the pull requests: 304 days
+ - Median age of the pull requests: 167 days
+
+### Current age distribution
+![Age distribution](_static/total_age_distribution.png)
+### Historical age distribution
+![Historical age distribution](_static/historical_age_distribution.png)
+## Age distribution by categories
+![Age distribution by categories](_static/categories_age_distribution.png)
+## Age distribution by age categories
+### Pull Requests with age: < 7 days
+ - [PR#19861](https://github.com/opencv/opencv/pull/19861): G-API: Adding a skip for failed streaming test
+<br/>   __Age__: 0 day<br/>
+   __Labels__: ['Label(name=category: g-api / gapi, description=, type=LabelType.Category)', 'Label(name=test, description=None, type=LabelType.ChangesType)']<br/>
+   __Categories__: ('g-api / gapi',)
+---
+ - [PR#19860](https://github.com/opencv/opencv/pull/19860): fix test_cameracalibration bug
+<br/>   __Age__: 0 day<br/>
+   __Labels__: []<br/>
+   __Categories__: ('calib3d',)
+---
+ - [PR#19859](https://github.com/opencv/opencv/pull/19859): Fix Single ThresholdBug in Simple Blob Detector
+<br/>   __Age__: 0 day<br/>
+   __Labels__: []<br/>
+   __Categories__: ('features2d',)
+---
+ - [PR#19856](https://github.com/opencv/opencv/pull/19856): Remove virtual inheritance from Feature2D
+<br/>   __Age__: 1 day<br/>
+   __Labels__: []<br/>
+   __Categories__: ('features2d',)
+---
+ - [PR#19855](https://github.com/opencv/opencv/pull/19855): Fix Android NDK camera's color format conversions
+<br/>   __Age__: 1 day<br/>
+   __Labels__: ['Label(name=category: videoio(camera), description=None, type=LabelType.Category)', 'Label(name=platform: android, description=, type=LabelType.Platform)']<br/>
+   __Categories__: ('videoio(camera)',)
+---
+ - [PR#19854](https://github.com/opencv/opencv/pull/19854): Add maxIters parameter to LMeDS method in findFundamentalMat
+<br/>   __Age__: 1 day<br/>
+   __Labels__: []<br/>
+   __Categories__: ('calib3d',)
+---
+ - [PR#19851](https://github.com/opencv/opencv/pull/19851): WIP Update Documentation
+<br/>   __Age__: 2 days<br/>
+   __Labels__: ['Label(name=category: documentation, description=Documentation fix or update, type=LabelType.Category)', 'Label(name=category: features2d, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('documentation', 'features2d')
+---
+ - [PR#19847](https://github.com/opencv/opencv/pull/19847): Expose maxIters in findEssentialMat
+<br/>   __Age__: 2 days<br/>
+   __Labels__: []<br/>
+   __Categories__: ('calib3d',)
+---
+ - [PR#19842](https://github.com/opencv/opencv/pull/19842): Change type used in points function from RotatedRect
+<br/>   __Age__: 3 days<br/>
+   __Labels__: []<br/>
+   __Categories__: ('core',)
+---
+ - [PR#19838](https://github.com/opencv/opencv/pull/19838): IPP: use linker workaround for Intel compiler on Linux
+<br/>   __Age__: 3 days<br/>
+   __Labels__: []<br/>
+   __Categories__: ('build/install',)
+---
+ - [PR#19836](https://github.com/opencv/opencv/pull/19836): delete unused variable
+<br/>   __Age__: 3 days<br/>
+   __Labels__: []<br/>
+   __Categories__: ('imgproc',)
+---
+ - [PR#19810](https://github.com/opencv/opencv/pull/19810): Relax accuracy requirements in the OpenCL sqrt perf arithmetic test.
+<br/>   __Age__: 5 days<br/>
+   __Labels__: []<br/>
+   __Categories__: ('imgproc', 'core')
+### Pull Requests with age: 7-14 days
+ - [PR#19780](https://github.com/opencv/opencv/pull/19780): Add reading of specific images from multipage tiff
+<br/>   __Age__: 11 days<br/>
+   __Labels__: ['Label(name=RFC, description=None, type=LabelType.Other)', 'Label(name=category: imgcodecs, description=None, type=LabelType.Category)', 'Label(name=feature, description=None, type=LabelType.ChangesType)']<br/>
+   __Categories__: ('imgcodecs',)
+---
+ - [PR#19778](https://github.com/opencv/opencv/pull/19778): Master riscv 0.7.1
+<br/>   __Age__: 11 days<br/>
+   __Labels__: []<br/>
+   __Categories__: ('infrastructure', 'core')
+### Pull Requests with age: 14-31 days
+ - [PR#19755](https://github.com/opencv/opencv/pull/19755): cv::UMat output/input in VideoCapture/VideoWriter (data stays in GPU memory)
+<br/>   __Age__: 16 days<br/>
+   __Labels__: ['Label(name=category: videoio, description=None, type=LabelType.Category)', 'Label(name=feature, description=None, type=LabelType.ChangesType)']<br/>
+   __Categories__: ('videoio',)
+---
+ - [PR#19748](https://github.com/opencv/opencv/pull/19748): Implement Soft NMS
+<br/>   __Age__: 17 days<br/>
+   __Labels__: ['Label(name=category: dnn, description=None, type=LabelType.Category)', 'Label(name=feature, description=None, type=LabelType.ChangesType)', 'Label(name=pr: needs test, description=New functionality requires minimal tests set, type=LabelType.Problem)']<br/>
+   __Categories__: ('dnn',)
+---
+ - [PR#19721](https://github.com/opencv/opencv/pull/19721): add audio support in cap_msmf
+<br/>   __Age__: 23 days<br/>
+   __Labels__: []<br/>
+   __Categories__: ('samples', 'videoio')
+---
+ - [PR#19689](https://github.com/opencv/opencv/pull/19689): add estimateAffine3D overload that implements Umeyama's algorithm
+<br/>   __Age__: 28 days<br/>
+   __Labels__: ['Label(name=category: calib3d, description=None, type=LabelType.Category)', 'Label(name=feature, description=None, type=LabelType.ChangesType)', 'Label(name=test, description=None, type=LabelType.ChangesType)']<br/>
+   __Categories__: ('calib3d',)
+---
+ - [PR#19684](https://github.com/opencv/opencv/pull/19684): Add Octree to 3D module in next branch - in progress
+<br/>   __Age__: 30 days<br/>
+   __Labels__: ['Label(name=pr: needs test, description=New functionality requires minimal tests set, type=LabelType.Problem)']<br/>
+   __Categories__: ('3d',)
+### Pull Requests with age: 31-180 days
+ - [PR#19592](https://github.com/opencv/opencv/pull/19592): Use C++ 14 in Cmake and related cleanup
+<br/>   __Age__: 43 days<br/>
+   __Labels__: ['Label(name=category: build/install, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('build/install',)
+---
+ - [PR#19555](https://github.com/opencv/opencv/pull/19555): drop python2 support from cmake files
+<br/>   __Age__: 46 days<br/>
+   __Labels__: ['Label(name=RFC, description=None, type=LabelType.Other)', 'Label(name=category: build/install, description=None, type=LabelType.Category)', 'Label(name=category: python bindings, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('build/install', 'python bindings')
+---
+ - [PR#19554](https://github.com/opencv/opencv/pull/19554): different paddings in cvtColorTwoPlane() for biplane YUV420
+<br/>   __Age__: 46 days<br/>
+   __Labels__: ['Label(name=category: imgproc, description=None, type=LabelType.Category)', 'Label(name=optimization, description=None, type=LabelType.ChangesType)']<br/>
+   __Categories__: ('imgproc',)
+---
+ - [PR#19551](https://github.com/opencv/opencv/pull/19551): GAPI TBB executor integration
+<br/>   __Age__: 47 days<br/>
+   __Labels__: ['Label(name=category: g-api / gapi, description=, type=LabelType.Category)']<br/>
+   __Categories__: ('g-api / gapi',)
+---
+ - [PR#19530](https://github.com/opencv/opencv/pull/19530): solveLP() infeasible results fix
+<br/>   __Age__: 49 days<br/>
+   __Labels__: ['Label(name=bug, description=None, type=LabelType.ChangesType)', 'Label(name=category: core, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('core',)
+---
+ - [PR#19360](https://github.com/opencv/opencv/pull/19360): WIP: Support loading of LSTM networks from ONNX (non-PyTorch)
+<br/>   __Age__: 74 days<br/>
+   __Labels__: ['Label(name=category: dnn, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('dnn',)
+---
+ - [PR#19343](https://github.com/opencv/opencv/pull/19343): Fixed detection of OpenBLAS and LAPACK on Ubuntu 18.04 with arch x86-64
+<br/>   __Age__: 77 days<br/>
+   __Labels__: ['Label(name=category: build/install, description=None, type=LabelType.Category)', 'Label(name=incomplete, description=None, type=LabelType.Problem)']<br/>
+   __Categories__: ('build/install',)
+---
+ - [PR#19341](https://github.com/opencv/opencv/pull/19341): G-API: Removing ParseSSD overload.
+<br/>   __Age__: 77 days<br/>
+   __Labels__: ['Label(name=bug, description=None, type=LabelType.ChangesType)', 'Label(name=category: g-api / gapi, description=, type=LabelType.Category)']<br/>
+   __Categories__: ('g-api / gapi',)
+---
+ - [PR#19329](https://github.com/opencv/opencv/pull/19329): G-API GExecutor internal interface
+<br/>   __Age__: 80 days<br/>
+   __Labels__: ['Label(name=category: g-api / gapi, description=, type=LabelType.Category)']<br/>
+   __Categories__: ('g-api / gapi',)
+---
+ - [PR#19311](https://github.com/opencv/opencv/pull/19311): [G-API] Adding GMat operators to the standalone mode
+<br/>   __Age__: 83 days<br/>
+   __Labels__: ['Label(name=category: g-api / gapi, description=, type=LabelType.Category)']<br/>
+   __Categories__: ('g-api / gapi',)
+---
+ - [PR#19309](https://github.com/opencv/opencv/pull/19309): Use nvenc
+<br/>   __Age__: 83 days<br/>
+   __Labels__: ['Label(name=category: gpu/cuda (contrib), description=OpenCV 4.0+: moved to opencv_contrib, type=LabelType.Category)', 'Label(name=category: video, description=None, type=LabelType.Category)', 'Label(name=feature, description=None, type=LabelType.ChangesType)']<br/>
+   __Categories__: ('gpu/cuda (contrib)', 'video')
+---
+ - [PR#19305](https://github.com/opencv/opencv/pull/19305): Test writing documentation
+<br/>   __Age__: 84 days<br/>
+   __Labels__: ['Label(name=category: documentation, description=Documentation fix or update, type=LabelType.Category)', 'Label(name=pr: Discussion Required, description=, type=LabelType.Problem)']<br/>
+   __Categories__: ('documentation',)
+---
+ - [PR#19221](https://github.com/opencv/opencv/pull/19221): support yolov4x-mish new_coords = 1 in both CPU and CUDA mode
+<br/>   __Age__: 100 days<br/>
+   __Labels__: ['Label(name=backport is needed, description=None, type=LabelType.Other)', 'Label(name=category: dnn, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('dnn',)
+---
+ - [PR#19126](https://github.com/opencv/opencv/pull/19126): WIP: Fix Subdiv2D: subdiv expand initial triangle
+<br/>   __Age__: 111 days<br/>
+   __Labels__: ['Label(name=bug, description=None, type=LabelType.ChangesType)', 'Label(name=category: imgproc, description=None, type=LabelType.Category)', 'Label(name=feature, description=None, type=LabelType.ChangesType)']<br/>
+   __Categories__: ('imgproc',)
+---
+ - [PR#18976](https://github.com/opencv/opencv/pull/18976): Add GitHub Actions for building XCFramework artifacts
+<br/>   __Age__: 125 days<br/>
+   __Labels__: ['Label(name=category: build/install, description=None, type=LabelType.Category)', 'Label(name=platform: ios/osx, description=, type=LabelType.Platform)']<br/>
+   __Categories__: ('build/install',)
+---
+ - [PR#18925](https://github.com/opencv/opencv/pull/18925): Swift Package Manager [WIP]
+<br/>   __Age__: 130 days<br/>
+   __Labels__: ['Label(name=RFC, description=None, type=LabelType.Other)', 'Label(name=category: infrastructure, description=None, type=LabelType.Category)', 'Label(name=platform: ios/osx, description=, type=LabelType.Platform)']<br/>
+   __Categories__: ('infrastructure',)
+---
+ - [PR#18874](https://github.com/opencv/opencv/pull/18874): Revert IPP enabling and workarounds
+<br/>   __Age__: 136 days<br/>
+   __Labels__: []<br/>
+   __Categories__: ('imgproc', 'infrastructure', 'core', 't-api')
+---
+ - [PR#18694](https://github.com/opencv/opencv/pull/18694): videoio/gstreamer: Add support for GRAY16_LE.
+<br/>   __Age__: 158 days<br/>
+   __Labels__: []<br/>
+   __Categories__: ('videoio',)
+---
+ - [PR#18627](https://github.com/opencv/opencv/pull/18627): [WIP] reformat trackers
+<br/>   __Age__: 167 days<br/>
+   __Labels__: ['Label(name=category: samples, description=None, type=LabelType.Category)', 'Label(name=category: tracking, description=, type=LabelType.Category)']<br/>
+   __Categories__: ('samples', 'tracking')
+---
+ - [PR#18594](https://github.com/opencv/opencv/pull/18594): core: support Mat 1D
+<br/>   __Age__: 171 days<br/>
+   __Labels__: ['Label(name=category: core, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('core',)
+### Pull Requests with age: 180-365 days
+ - [PR#18498](https://github.com/opencv/opencv/pull/18498): Add V4L2_PIX_FMT_Y16_BE pixel format
+<br/>   __Age__: 184 days<br/>
+   __Labels__: ['Label(name=category: videoio(camera), description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('videoio(camera)',)
+---
+ - [PR#18377](https://github.com/opencv/opencv/pull/18377): Zerocopy gstreamer videocapture
+<br/>   __Age__: 195 days<br/>
+   __Labels__: ['Label(name=RFC, description=None, type=LabelType.Other)', 'Label(name=category: videoio, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('videoio',)
+---
+ - [PR#18337](https://github.com/opencv/opencv/pull/18337): Major feature extension for file persistence in FILESTORAGE::READ mode
+<br/>   __Age__: 202 days<br/>
+   __Labels__: ['Label(name=RFC, description=None, type=LabelType.Other)', 'Label(name=category: core, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('core',)
+---
+ - [PR#18066](https://github.com/opencv/opencv/pull/18066): [GSoC] GPU-enabled OpenCV.js, add webgpu-dawn support for dnn module.
+<br/>   __Age__: 238 days<br/>
+   __Labels__: ['Label(name=GSoC, description=None, type=LabelType.Other)', 'Label(name=category: dnn, description=None, type=LabelType.Category)', 'Label(name=category: javascript (js), description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('dnn', 'javascript (js)')
+---
+ - [PR#17981](https://github.com/opencv/opencv/pull/17981): Recover pose from different cameras
+<br/>   __Age__: 250 days<br/>
+   __Labels__: ['Label(name=category: calib3d, description=None, type=LabelType.Category)', 'Label(name=feature, description=None, type=LabelType.ChangesType)']<br/>
+   __Categories__: ('calib3d',)
+---
+ - [PR#17889](https://github.com/opencv/opencv/pull/17889): WIP：QR code (decoding process)
+<br/>   __Age__: 259 days<br/>
+   __Labels__: ['Label(name=GSoC, description=None, type=LabelType.Other)', 'Label(name=category: objdetect, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('objdetect',)
+---
+ - [PR#17753](https://github.com/opencv/opencv/pull/17753): WIP: imreadmulti extention for issue #6574
+<br/>   __Age__: 274 days<br/>
+   __Labels__: ['Label(name=RFC, description=None, type=LabelType.Other)', 'Label(name=category: imgcodecs, description=None, type=LabelType.Category)', 'Label(name=pr: needs test, description=New functionality requires minimal tests set, type=LabelType.Problem)']<br/>
+   __Categories__: ('imgcodecs',)
+---
+ - [PR#17678](https://github.com/opencv/opencv/pull/17678): Profiling - CMake
+<br/>   __Age__: 282 days<br/>
+   __Labels__: ['Label(name=bug, description=None, type=LabelType.ChangesType)', 'Label(name=category: build/install, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('build/install',)
+---
+ - [PR#17520](https://github.com/opencv/opencv/pull/17520): Add layer model blending
+<br/>   __Age__: 299 days<br/>
+   __Labels__: ['Label(name=category: photo, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('photo',)
+---
+ - [PR#17393](https://github.com/opencv/opencv/pull/17393): dnn(test): add IE models for face-detection
+<br/>   __Age__: 313 days<br/>
+   __Labels__: ['Label(name=category: dnn, description=None, type=LabelType.Category)', 'Label(name=test, description=None, type=LabelType.ChangesType)']<br/>
+   __Categories__: ('dnn',)
+---
+ - [PR#17167](https://github.com/opencv/opencv/pull/17167): QR-Code: Add evaluation sample
+<br/>   __Age__: 343 days<br/>
+   __Labels__: []<br/>
+   __Categories__: ('samples',)
+---
+ - [PR#17068](https://github.com/opencv/opencv/pull/17068): PIL
+<br/>   __Age__: 355 days<br/>
+   __Labels__: ['Label(name=category: imgproc, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('imgproc',)
+---
+ - [PR#17029](https://github.com/opencv/opencv/pull/17029): Switch to new nGraph API
+<br/>   __Age__: 360 days<br/>
+   __Labels__: ['Label(name=category: dnn, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('dnn',)
+### Pull Requests with age: > 365 days
+ - [PR#16906](https://github.com/opencv/opencv/pull/16906): Remove NN Builder API
+<br/>   __Age__: 376 days<br/>
+   __Labels__: ['Label(name=category: dnn, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('dnn',)
+---
+ - [PR#16802](https://github.com/opencv/opencv/pull/16802): Scale_layer: enable scale layer to handle inputs in batch
+<br/>   __Age__: 388 days<br/>
+   __Labels__: ['Label(name=category: dnn, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('dnn',)
+---
+ - [PR#16597](https://github.com/opencv/opencv/pull/16597): Fixes matrix expression bug which happens when Scalar in addition pas…
+<br/>   __Age__: 413 days<br/>
+   __Labels__: ['Label(name=RFC, description=None, type=LabelType.Other)', 'Label(name=bug, description=None, type=LabelType.ChangesType)', 'Label(name=category: core, description=None, type=LabelType.Category)', 'Label(name=test, description=None, type=LabelType.ChangesType)']<br/>
+   __Categories__: ('core',)
+---
+ - [PR#16189](https://github.com/opencv/opencv/pull/16189): Enable 2-channel arrays in resize tests
+<br/>   __Age__: 474 days<br/>
+   __Labels__: ['Label(name=Hackathon, description=https://opencv.org/opencv-hackathon-starts-next-week/, type=LabelType.Other)', 'Label(name=bug, description=None, type=LabelType.ChangesType)', 'Label(name=category: imgproc, description=None, type=LabelType.Category)', 'Label(name=test, description=None, type=LabelType.ChangesType)']<br/>
+   __Categories__: ('imgproc',)
+---
+ - [PR#15889](https://github.com/opencv/opencv/pull/15889): Made buildImagePyramid free function
+<br/>   __Age__: 511 days<br/>
+   __Labels__: ['Label(name=category: gpu/cuda (contrib), description=OpenCV 4.0+: moved to opencv_contrib, type=LabelType.Category)', 'Label(name=feature, description=None, type=LabelType.ChangesType)']<br/>
+   __Categories__: ('gpu/cuda (contrib)',)
+---
+ - [PR#15860](https://github.com/opencv/opencv/pull/15860): core(test): Test control characters in yml
+<br/>   __Age__: 515 days<br/>
+   __Labels__: ['Label(name=bug, description=None, type=LabelType.ChangesType)', 'Label(name=category: core, description=None, type=LabelType.Category)', 'Label(name=pr: reproducer, description=Reproduces some bug, not expected to be merged, type=LabelType.Reproducer)']<br/>
+   __Categories__: ('core',)
+---
+ - [PR#15727](https://github.com/opencv/opencv/pull/15727): Vectorizing normDiffInf for 8u,8s multichannel
+<br/>   __Age__: 535 days<br/>
+   __Labels__: ['Label(name=category: core, description=None, type=LabelType.Category)', 'Label(name=optimization, description=None, type=LabelType.ChangesType)']<br/>
+   __Categories__: ('core',)
+---
+ - [PR#15683](https://github.com/opencv/opencv/pull/15683): cv::magnitudeSqr()
+<br/>   __Age__: 543 days<br/>
+   __Labels__: ['Label(name=category: core, description=None, type=LabelType.Category)', 'Label(name=feature, description=None, type=LabelType.ChangesType)']<br/>
+   __Categories__: ('core',)
+---
+ - [PR#15682](https://github.com/opencv/opencv/pull/15682): added cv::magnitude(InputArray xy...)
+<br/>   __Age__: 543 days<br/>
+   __Labels__: ['Label(name=category: core, description=None, type=LabelType.Category)', 'Label(name=optimization, description=None, type=LabelType.ChangesType)', 'Label(name=test, description=None, type=LabelType.ChangesType)']<br/>
+   __Categories__: ('core',)
+---
+ - [PR#15650](https://github.com/opencv/opencv/pull/15650): PnP issue 15647
+<br/>   __Age__: 548 days<br/>
+   __Labels__: ['Label(name=RFC, description=None, type=LabelType.Other)', 'Label(name=category: calib3d, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('calib3d',)
+---
+ - [PR#15311](https://github.com/opencv/opencv/pull/15311): `solvePnP`and 'projectPoints' for calib3d and face module
+<br/>   __Age__: 599 days<br/>
+   __Labels__: ['Label(name=category: javascript (js), description=None, type=LabelType.Category)', 'Label(name=pr: reproducer, description=Reproduces some bug, not expected to be merged, type=LabelType.Reproducer)']<br/>
+   __Categories__: ('javascript (js)',)
+---
+ - [PR#15240](https://github.com/opencv/opencv/pull/15240): Samples and tutorials for the Dnn High Level API
+<br/>   __Age__: 609 days<br/>
+   __Labels__: ['Label(name=GSoC, description=None, type=LabelType.Other)', 'Label(name=Hackathon, description=https://opencv.org/opencv-hackathon-starts-next-week/, type=LabelType.Other)', 'Label(name=category: dnn, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('dnn',)
+---
+ - [PR#14971](https://github.com/opencv/opencv/pull/14971): multi-images + meta-properties
+<br/>   __Age__: 642 days<br/>
+   __Labels__: ['Label(name=category: imgcodecs, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('imgcodecs',)
+---
+ - [PR#14296](https://github.com/opencv/opencv/pull/14296): photo: Add support for CV_16U to cv::cuda::fastNlMeansDenoising and c…
+<br/>   __Age__: 725 days<br/>
+   __Labels__: ['Label(name=category: gpu/cuda (contrib), description=OpenCV 4.0+: moved to opencv_contrib, type=LabelType.Category)', 'Label(name=feature, description=None, type=LabelType.ChangesType)', 'Label(name=pr: needs test, description=New functionality requires minimal tests set, type=LabelType.Problem)']<br/>
+   __Categories__: ('gpu/cuda (contrib)',)
+---
+ - [PR#13879](https://github.com/opencv/opencv/pull/13879): add REDUCE_SUM2
+<br/>   __Age__: 774 days<br/>
+   __Labels__: ['Label(name=category: core, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('core',)
+---
+ - [PR#12549](https://github.com/opencv/opencv/pull/12549): cmake: split opencv_modules.hpp
+<br/>   __Age__: 932 days<br/>
+   __Labels__: ['Label(name=RFC, description=None, type=LabelType.Other)', 'Label(name=category: build/install, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('build/install',)
+---
+ - [PR#12290](https://github.com/opencv/opencv/pull/12290): 16-bit Grayscale and 48 bit RGB with FFV1 lossless as part of #12284 with tests
+<br/>   __Age__: 956 days<br/>
+   __Labels__: ['Label(name=RFC, description=None, type=LabelType.Other)', 'Label(name=category: videoio, description=None, type=LabelType.Category)', 'Label(name=priority: low, description=None, type=LabelType.Priority)']<br/>
+   __Categories__: ('videoio',)
+---
+ - [PR#12186](https://github.com/opencv/opencv/pull/12186): samples: refactor DNN model downloading
+<br/>   __Age__: 970 days<br/>
+   __Labels__: ['Label(name=category: dnn, description=None, type=LabelType.Category)', 'Label(name=category: samples, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('dnn', 'samples')
+---
+ - [PR#11885](https://github.com/opencv/opencv/pull/11885): RFC: merge fisheye camera into default camera calibration API
+<br/>   __Age__: 1007 days<br/>
+   __Labels__: ['Label(name=RFC, description=None, type=LabelType.Other)', 'Label(name=category: calib3d, description=None, type=LabelType.Category)', 'Label(name=pr: Discussion Required, description=, type=LabelType.Problem)']<br/>
+   __Categories__: ('calib3d',)
+---
+ - [PR#10628](https://github.com/opencv/opencv/pull/10628): added cap field for VideoWriter (constructor, open, C interface) for …
+<br/>   __Age__: 1173 days<br/>
+   __Labels__: ['Label(name=category: videoio, description=None, type=LabelType.Category)', "Label(name=future, description=This issue can't be fixed during restrictions of the master branch compatibility requirements, type=LabelType.ChangesType)"]<br/>
+   __Categories__: ('videoio',)
+---
+ - [PR#10318](https://github.com/opencv/opencv/pull/10318): For various PR tests
+<br/>   __Age__: 1207 days<br/>
+   __Labels__: ['Label(name=pr: reproducer, description=Reproduces some bug, not expected to be merged, type=LabelType.Reproducer)', 'Label(name=test, description=None, type=LabelType.ChangesType)']<br/>
+   __Categories__: ('videoio',)
+---
+ - [PR#9123](https://github.com/opencv/opencv/pull/9123): Support CV_CAP_MODE_GRAY in FFMPEG backend
+<br/>   __Age__: 1366 days<br/>
+   __Labels__: ['Label(name=RFC, description=None, type=LabelType.Other)', 'Label(name=category: videoio, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('videoio',)
+---
+ - [PR#8511](https://github.com/opencv/opencv/pull/8511): export img decoders/encoders
+<br/>   __Age__: 1462 days<br/>
+   __Labels__: ['Label(name=RFC, description=None, type=LabelType.Other)', 'Label(name=category: imgcodecs, description=None, type=LabelType.Category)']<br/>
+   __Categories__: ('imgcodecs',)

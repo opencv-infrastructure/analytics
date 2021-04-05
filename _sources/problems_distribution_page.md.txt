@@ -1,0 +1,228 @@
+# Problematic pull requests
+## Stable reproducers
+ - [PR#15860](https://github.com/opencv/opencv/pull/15860): core(test): Test control characters in yml
+
+   __Description__:<br/>
+```
+Reproducer for #6897
+
+ Please use this line to close one or multiple issues when this pullrequest gets merged
+You can add another line right under the first one:
+resolves #1234
+resolves #1235
+
+
+This pullrequest changes
+
+ Please describe what your pullrequest is changing 
+
+```
+ - [PR#15311](https://github.com/opencv/opencv/pull/15311): `solvePnP`and 'projectPoints' for calib3d and face module
+
+   __Description__:<br/>
+```
+reproducer for #15299
+
+
+opencv_contrib=master
+force_builders_only=Custom
+buildworker:Custom=linux-1,linux-2,linux-4
+docker_image:Custom=javascript
+
+```
+## WIP
+ - [PR#19851](https://github.com/opencv/opencv/pull/19851): WIP Update Documentation
+
+ - [PR#19360](https://github.com/opencv/opencv/pull/19360): WIP: Support loading of LSTM networks from ONNX (non-PyTorch)
+
+ - [PR#19126](https://github.com/opencv/opencv/pull/19126): WIP: Fix Subdiv2D: subdiv expand initial triangle
+
+ - [PR#18925](https://github.com/opencv/opencv/pull/18925): Swift Package Manager [WIP]
+
+ - [PR#18627](https://github.com/opencv/opencv/pull/18627): [WIP] reformat trackers
+
+ - [PR#18594](https://github.com/opencv/opencv/pull/18594): core: support Mat 1D
+
+ - [PR#18377](https://github.com/opencv/opencv/pull/18377): Zerocopy gstreamer videocapture
+
+ - [PR#17889](https://github.com/opencv/opencv/pull/17889): WIP：QR code (decoding process)
+
+ - [PR#17753](https://github.com/opencv/opencv/pull/17753): WIP: imreadmulti extention for issue #6574
+
+ - [PR#17393](https://github.com/opencv/opencv/pull/17393): dnn(test): add IE models for face-detection
+
+ - [PR#12290](https://github.com/opencv/opencv/pull/12290): 16-bit Grayscale and 48 bit RGB with FFV1 lossless as part of #12284 with tests
+
+ - [PR#12186](https://github.com/opencv/opencv/pull/12186): samples: refactor DNN model downloading
+
+ - [PR#10318](https://github.com/opencv/opencv/pull/10318): For various PR tests
+
+## Problem: pr: needs test
+ - [PR#19748](https://github.com/opencv/opencv/pull/19748): Implement Soft NMS
+
+   __Description__:<br/>
+```
+Implement Paper "Soft-NMS -- Improving Object Detection With One Line of Code"
+https://arxiv.org/abs/1704.04503
+
+It is the implementation part; will create sample program to RCNN models at the next step.
+
+Pull Request Readiness Checklist
+
+See details at https://github.com/opencv/opencv/wiki/How_to_contribute#making-a-good-pull-request
+
+- [x] I agree to contribute to the project under Apache 2 License.
+- [x] To the best of my knowledge, the proposed patch is not based on a code under GPL or other license that is incompatible with OpenCV
+- [x] The PR is proposed to proper branch
+- [ ] There is reference to original bug report and related work
+- [ ] There is accuracy test, performance test and test data in opencv_extra repository, if applicable
+      Patch to opencv_extra has the same branch name.
+- [x] The feature is well documented and sample code can be built with the project CMake
+
+```
+ - [PR#19684](https://github.com/opencv/opencv/pull/19684): Add Octree to 3D module in next branch - in progress
+
+   __Description__:<br/>
+```
+Add Octree to 3D module in next branch - in progress
+
+Hi, recently we want to contribute an octree class to the next branch. We read some implementations in open source projects, such as Open3D, PCL, Octomap. They all contain octrees, but their implementation is different.
+
+In the current PR, we have only implemented some very basic functions. 
+Before improving it, we have the following doubts:
+- Which functions of the octree in the next branch should be implemented? 
+- What is the role of the octree in the 3d module in the future?
+
+Looking forward to your opinion, thank you.
+
+<img src="https://user-images.githubusercontent.com/16487352/110197350-05071600-7e86-11eb-8afa-0908731757e5.png" alt="drawing" width="500"/>
+
+The viz-based visualization examples can be found at [here](https://github.com/zihaomu/3D-Vision/tree/main/octree).
+
+Pull Request Readiness Checklist
+
+See details at https://github.com/opencv/opencv/wiki/How_to_contribute#making-a-good-pull-request
+
+- [x] I agree to contribute to the project under Apache 2 License.
+- [x] To the best of my knowledge, the proposed patch is not based on a code under GPL or other license that is incompatible with OpenCV
+- [x] The PR is proposed to proper branch
+- [ ] There is reference to original bug report and related work
+- [ ] There is accuracy test, performance test and test data in opencv_extra repository, if applicable
+      Patch to opencv_extra has the same branch name.
+- [ ] The feature is well documented and sample code can be built with the project CMake
+
+```
+ - [PR#17753](https://github.com/opencv/opencv/pull/17753): WIP: imreadmulti extention for issue #6574
+
+   __Description__:<br/>
+```
+proposed solution to https://github.com/opencv/opencv/issues/6574
+
+**TEST**
+
+the idea in summary:
+
+creating a new class ImageLoader including cv::imread codes seperated in two section 
+
+> a) reading header of files ( ImageLoader.open() ) gets image information such as width, heigth, type, number of pages ( curently TIFF extendable to other formats )
+
+
+> b) reading data ( ImageLoader.load() )
+
+<cut/>
+
+Pull Request Readiness Checklist
+
+See details at https://github.com/opencv/opencv/wiki/How_to_contribute#making-a-good-pull-request
+
+- [X] I agree to contribute to the project under OpenCV (BSD) License.
+- [X] To the best of my knowledge, the proposed patch is not based on a code under GPL or other license that is incompatible with OpenCV
+- [X] The PR is proposed to proper branch
+- [X] There is reference to original bug report and related work
+- [ ] There is accuracy test, performance test and test data in opencv_extra repository, if applicable
+      Patch to opencv_extra has the same branch name.
+- [ ] The feature is well documented and sample code can be built with the project CMake
+
+
+
+force_builders_only=docs,linux,Win64
+
+```
+ - [PR#14296](https://github.com/opencv/opencv/pull/14296): photo: Add support for CV_16U to cv::cuda::fastNlMeansDenoising and c…
+
+   __Description__:<br/>
+```
+photo: Add support for CV_16U to cv::cuda::fastNlMeansDenoising and cv::cuda::nonLocalMeans
+
+<cut/>
+
+
+opencv_extra=cuda_nlm_16support
+force_builders=Custom
+buildworker:Custom=linux-1,linux-2,linux-4
+docker_image:Custom=ubuntu-cuda:16.04
+
+```
+## Problem: incomplete
+ - [PR#19343](https://github.com/opencv/opencv/pull/19343): Fixed detection of OpenBLAS and LAPACK on Ubuntu 18.04 with arch x86-64
+
+   __Description__:<br/>
+```
+Fixes the cmake detection of OpenBLAS and LAPACK libraries on Ubuntu with arch x86-64
+
+A similar fix can be applied for other architectures too.
+
+Source: #9953, only partially resolves it.
+
+Tested this on a Docker container, Ubuntu 18.04 with GCC 7.5.0, OpenCV builds successfully, and the relevant cmake output for OpenBLAS detection is as follows:
+
+-- Found OpenBLAS libraries: /usr/lib/x86_64-linux-gnu/libopenblas.so
+-- Found OpenBLAS include: /usr/include/x86_64-linux-gnu
+-- LAPACK(OpenBLAS): LAPACK_LIBRARIES: /usr/lib/x86_64-linux-gnu/libopenblas.so
+-- LAPACK(OpenBLAS): Support is enabled.
+
+
+This patch has not been tested on other architectures/OS, but it should not affect any other architecture/OS
+
+Pull Request Readiness Checklist
+
+See details at https://github.com/opencv/opencv/wiki/How_to_contribute#making-a-good-pull-request
+
+- [x] I agree to contribute to the project under Apache 2 License.
+- [x] To the best of my knowledge, the proposed patch is not based on a code under GPL or other license that is incompatible with OpenCV
+- [ ] The PR is proposed to proper branch
+- [ ] There is reference to original bug report and related work
+- [ ] There is accuracy test, performance test and test data in opencv_extra repository, if applicable
+      Patch to opencv_extra has the same branch name.
+- [ ] The feature is well documented and sample code can be built with the project CMake
+```
+## Problem: pr: Discussion Required
+ - [PR#19305](https://github.com/opencv/opencv/pull/19305): Test writing documentation
+
+   __Description__:<br/>
+```
+Pull Request Readiness Checklist
+
+See details at https://github.com/opencv/opencv/wiki/How_to_contribute#making-a-good-pull-request
+
+- [ ] I agree to contribute to the project under Apache 2 License.
+- [ ] To the best of my knowledge, the proposed patch is not based on a code under GPL or other license that is incompatible with OpenCV
+- [ ] The PR is proposed to proper branch
+- [ ] There is reference to original bug report and related work
+- [ ] There is accuracy test, performance test and test data in opencv_extra repository, if applicable
+      Patch to opencv_extra has the same branch name.
+- [ ] The feature is well documented and sample code can be built with the project CMake
+
+```
+ - [PR#11885](https://github.com/opencv/opencv/pull/11885): RFC: merge fisheye camera into default camera calibration API
+
+   __Description__:<br/>
+```
+for #11015
+
+- allow using default calib flags for fisheye functions
+- forwarded the cameraModel flag where possible
+- solvePnP will still fail with fisheye model in undistort points
+  - as undistortPoints is in imgproc, while the fisheye version is in calib3d there is no forwarding
+- the ccalib versions could be similarly integrated 
+```

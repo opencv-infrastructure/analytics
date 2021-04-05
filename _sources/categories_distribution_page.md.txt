@@ -1,0 +1,54 @@
+# Categories distribution
+## Overview
+Total percentage may exceed 100%, because several categories may be assigned to 1 pull request.
+ ![Categories distribution plot](_static/categories_distribution.png)
+## Pull requests with auto assigned categories
+Categories are assigned based on path of the changed files.
+
+  - [PR#19860](https://github.com/opencv/opencv/pull/19860): fix test_cameracalibration bug
+<br/>   __Assigned categories__: ('calib3d',)
+---
+ - [PR#19859](https://github.com/opencv/opencv/pull/19859): Fix Single ThresholdBug in Simple Blob Detector
+<br/>   __Assigned categories__: ('features2d',)
+---
+ - [PR#19856](https://github.com/opencv/opencv/pull/19856): Remove virtual inheritance from Feature2D
+<br/>   __Assigned categories__: ('features2d',)
+---
+ - [PR#19854](https://github.com/opencv/opencv/pull/19854): Add maxIters parameter to LMeDS method in findFundamentalMat
+<br/>   __Assigned categories__: ('calib3d',)
+---
+ - [PR#19847](https://github.com/opencv/opencv/pull/19847): Expose maxIters in findEssentialMat
+<br/>   __Assigned categories__: ('calib3d',)
+---
+ - [PR#19842](https://github.com/opencv/opencv/pull/19842): Change type used in points function from RotatedRect
+<br/>   __Assigned categories__: ('core',)
+---
+ - [PR#19838](https://github.com/opencv/opencv/pull/19838): IPP: use linker workaround for Intel compiler on Linux
+<br/>   __Assigned categories__: ('build/install',)
+---
+ - [PR#19836](https://github.com/opencv/opencv/pull/19836): delete unused variable
+<br/>   __Assigned categories__: ('imgproc',)
+---
+ - [PR#19810](https://github.com/opencv/opencv/pull/19810): Relax accuracy requirements in the OpenCL sqrt perf arithmetic test.
+<br/>   __Assigned categories__: ('imgproc', 'core')
+---
+ - [PR#19778](https://github.com/opencv/opencv/pull/19778): Master riscv 0.7.1
+<br/>   __Assigned categories__: ('infrastructure', 'core')
+---
+ - [PR#19721](https://github.com/opencv/opencv/pull/19721): add audio support in cap_msmf
+<br/>   __Assigned categories__: ('samples', 'videoio')
+---
+ - [PR#19684](https://github.com/opencv/opencv/pull/19684): Add Octree to 3D module in next branch - in progress
+<br/>   __Assigned categories__: ('3d',)
+---
+ - [PR#18874](https://github.com/opencv/opencv/pull/18874): Revert IPP enabling and workarounds
+<br/>   __Assigned categories__: ('imgproc', 'infrastructure', 'core', 't-api')
+---
+ - [PR#18694](https://github.com/opencv/opencv/pull/18694): videoio/gstreamer: Add support for GRAY16_LE.
+<br/>   __Assigned categories__: ('videoio',)
+---
+ - [PR#17167](https://github.com/opencv/opencv/pull/17167): QR-Code: Add evaluation sample
+<br/>   __Assigned categories__: ('samples',)
+---
+ - [PR#10318](https://github.com/opencv/opencv/pull/10318): For various PR tests
+<br/>   __Assigned categories__: ('videoio',)

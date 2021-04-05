@@ -1,0 +1,10 @@
+# Changes distribution
+## Overview
+ - Most deletions refer to module: dnn with 4707 line deletions
+ - Most additions refer to module: dnn with 8914 line additions
+ - Most changes refer to module: dnn with 13621 line changes
+![Total changes distribution](_static/total_changes_distribution.png)
+## Changes distribution between the modules
+![Changes distribution between the modules](_static/relative_changes_distribution.png)
+## Changes distribution in absolute values
+![Changes distribution in absolute values](_static/absolute_changes_distribution.png)

@@ -1,0 +1,23 @@
+Welcome to OpenCV pull requests statistics page!
+================================================
+Updated 2021-04-05 16:51:02 UTC
+
+Current Pull Requests age distribution
+--------------------------------------
+.. image:: _static/total_age_distribution.png
+
+Pull Requests trend
+-------------------
+.. image:: _static/historical_changes.png
+
+Pages
+-----
+
+.. toctree::
+  :maxdepth: 3
+
+  problems_distribution_page
+  age_distribution_page
+  changes_distribution_page
+  categories_distribution_page
+ 
